@@ -7,7 +7,7 @@ public class Player : MonoBehaviour {
     public float JumpSpeed;
     bool CanJump = true;
     public GameObject GameController;
-
+    public Animator Anim;
 
 
     // Update is called once per frame
