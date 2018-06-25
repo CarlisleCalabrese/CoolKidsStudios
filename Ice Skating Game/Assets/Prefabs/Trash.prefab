@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TrashBody: {fileID: 50926582742754268}
-  Speed: 500
+  Speed: 600
 --- !u!212 &212116138342525010
 SpriteRenderer:
   m_ObjectHideFlags: 1

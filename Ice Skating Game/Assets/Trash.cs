@@ -10,9 +10,22 @@ public class Trash : MonoBehaviour {
 	void Start () {
         TrashBody.AddForce(transform.right * Speed);
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    // Update is called once per frame
+    void Update()
+    {
+
+
+
+        
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (TrashBody.velocity.y == 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
