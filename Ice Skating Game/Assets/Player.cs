@@ -18,6 +18,38 @@ public class Player : MonoBehaviour {
             RB.AddForce(Vector2.up * JumpSpeed);
             CanJump = false;
         }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+
+        }
+        else if (Input.GetKeyDown(KeyCode.D))
+        {
+
+        }
+        else if (Input.GetKeyDown(KeyCode.W))
+        {
+
+        }
+        else if (Input.GetKeyDown(KeyCode.S))
+        {
+
+        }
+        else if (Input.GetKeyDown(KeyCode.A) && CanJump == false)
+        {
+
+        }
+        else if (Input.GetKeyDown(KeyCode.W) && CanJump == false)
+        {
+
+        }
+        else if (Input.GetKeyDown(KeyCode.D) && CanJump == false)
+        {
+
+        }
+        else if (Input.GetKeyDown(KeyCode.S) && CanJump == false)
+        {
+
+        }
     }
 
     void OnCollisionStay2D(Collision2D collision)
