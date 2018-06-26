@@ -8,7 +8,7 @@ public class Player : MonoBehaviour {
     bool CanJump = true;
     public GameObject GameController;
     public Animator Anim;
-
+    public float PlayerSpeed;
 
     // Update is called once per frame
     void Update()
@@ -18,6 +18,8 @@ public class Player : MonoBehaviour {
             RB.AddForce(Vector2.up * JumpSpeed);
             CanJump = false;
         }
+
+        // Tricks.
         if (Input.GetKeyDown(KeyCode.A))
         {
 
@@ -50,6 +52,18 @@ public class Player : MonoBehaviour {
         {
 
         }
+
+        //Left and right movement.
+        if (Input.GetKey(KeyCode.Q))
+        {
+            RB.AddForce(-Vector2.right * PlayerSpeed);
+        }
+        if (Input.GetKey(KeyCode.E))
+        {
+            RB.AddForce(Vector2.right * PlayerSpeed);
+        }
+
+
     }
 
     void OnCollisionStay2D(Collision2D collision)

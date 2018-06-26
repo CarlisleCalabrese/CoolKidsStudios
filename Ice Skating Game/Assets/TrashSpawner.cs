@@ -10,7 +10,6 @@ public class TrashSpawner : MonoBehaviour {
     public float LowerBound;
     public float Interval;
 
-
 	
 	// Update is called once per frame
 	void Update () {

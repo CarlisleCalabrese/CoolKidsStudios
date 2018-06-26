@@ -21,11 +21,18 @@ public class Trash : MonoBehaviour {
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D col)
     {
-        if (TrashBody.velocity.y == 0)
+
+        if (col.gameObject.name == "Player")
+        {
+            GameObject.Find("GameController").SendMessage("LoseLife");
+            Destroy(gameObject);
+        }
+        else
         {
             Destroy(gameObject);
         }
+
     }
 }
