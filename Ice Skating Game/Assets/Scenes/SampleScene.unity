@@ -247,7 +247,7 @@ Transform:
   m_GameObject: {fileID: 17702432}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.0303182, y: 0.110000014, z: 0}
-  m_LocalScale: {x: 4.988429, y: 4.988432, z: 1}
+  m_LocalScale: {x: 6.564134, y: 6.5641375, z: 1.315872}
   m_Children: []
   m_Father: {fileID: 1172610749}
   m_RootOrder: 0
@@ -313,7 +313,7 @@ SpriteRenderer:
   m_Size: {x: 0.27, y: 0.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 --- !u!1 &125436818
 GameObject:
@@ -582,8 +582,8 @@ MonoBehaviour:
   UpperBound: 4
   LowerBound: -1.25
   XValue: -9.04
-  MinInterval: 0.5
-  MaxInterval: 1.5
+  MinInterval: 1.5
+  MaxInterval: 3
 --- !u!1 &235193578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1968,8 +1968,8 @@ MonoBehaviour:
   UpperBound: 4
   LowerBound: -1.25
   XValue: 9.04
-  MinInterval: 0.5
-  MaxInterval: 1.5
+  MinInterval: 1.5
+  MaxInterval: 3
 --- !u!1 &879317362
 GameObject:
   m_ObjectHideFlags: 0
@@ -2683,8 +2683,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1172610747}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0056902766, y: -1.27, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.011032, y: -1.2094, z: 0}
+  m_LocalScale: {x: 0.44844583, y: 0.44844577, z: 0.44844577}
   m_Children:
   - {fileID: 17702433}
   m_Father: {fileID: 0}
@@ -2747,7 +2747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RB: {fileID: 1172610750}
-  JumpSpeed: 1500
+  JumpSpeed: 1600
   GameController: {fileID: 902423616}
   Anim: {fileID: 17702434}
   PlayerSpeed: 150
@@ -3102,7 +3102,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1467567940}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.015625}
+  m_LocalPosition: {x: -0.08, y: 0, z: -0.015625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 602953415}
@@ -3130,7 +3130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c717a2808def54aa1b28fbbba1800a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
+  Speed: -5
   ScrollActive: 1
 --- !u!1 &1566057392
 GameObject:

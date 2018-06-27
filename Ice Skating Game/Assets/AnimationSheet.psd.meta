@@ -1,10 +1,12 @@
 fileFormatVersion: 2
-guid: 973fe442a73b5b14ea988cf2a0ba46c8
+guid: 448c91f5c0db4cc489c6bdac643a64d9
 TextureImporter:
   fileIDToRecycleName:
-    21300000: AnimationSheet 1_0
-    21300002: AnimationSheet 1_1
-    21300004: AnimationSheet 1_2
+    21300000: AnimationSheet_0
+    21300002: AnimationSheet_1
+    21300004: AnimationSheet_2
+    21300006: AnimationSheet_3
+    21300008: AnimationSheet_4
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -85,7 +87,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AnimationSheet 1_0
+      name: AnimationSheet_0
       rect:
         serializedVersion: 2
         x: 75
@@ -99,13 +101,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 579853c1d56a1ad40836f89ebb19cff6
+      spriteID: b1ee174dafe882d4d8eaafeb9eae1428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnimationSheet 1_1
+      name: AnimationSheet_1
       rect:
         serializedVersion: 2
         x: 146
@@ -119,13 +121,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8b59e2baf65b504495349461aa8a4e4
+      spriteID: 572fd9ddd5068a74ba240bfacc1875bb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnimationSheet 1_2
+      name: AnimationSheet_2
       rect:
         serializedVersion: 2
         x: 222
@@ -139,7 +141,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee06a2a40e7e2b4469ba6dc7eef8e39a
+      spriteID: ed29f0aa198329f4b83eeb93d0923760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_3
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 269
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ab2489a4be9d04c858928dfbc7cb1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 269
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d506e859169b26458c4081fb545654b
       vertices: []
       indices: 
       edges: []
@@ -147,7 +189,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f2e53376e58a89642b4a708d9da93be8
+    spriteID: 6e05912f530890145a229d6b8f67752b
     vertices: []
     indices: 
     edges: []
