@@ -8,15 +8,21 @@ public class TrashSpawner : MonoBehaviour {
     public GameObject Trash;
     public float UpperBound;
     public float LowerBound;
-    public float Interval;
+    private float Interval;
+    public float XValue;
+    public float MinInterval;
+    public float MaxInterval;
+
 
 	
 	// Update is called once per frame
 	void Update () {
 
+        Interval = Random.Range(MinInterval, MaxInterval);
+
         if (Time.time - Interval >= LastTrash)
         {
-            transform.position = new Vector2(-9.04f, Random.Range(LowerBound, UpperBound));
+            transform.position = new Vector2(XValue, Random.Range(LowerBound, UpperBound));
             Instantiate(Trash, transform.position, Quaternion.identity);
             LastTrash = Time.time;
         }

@@ -9,10 +9,21 @@ public class Player : MonoBehaviour {
     public GameObject GameController;
     public Animator Anim;
     public float PlayerSpeed;
+    private bool Movement = false;
 
     // Update is called once per frame
     void Update()
     { 
+        if (Movement == true)
+        {
+            Anim.Play("Running");
+        } else
+        {
+            Anim.Play("Stationary");
+        }
+
+
+
         if (Input.GetButtonDown("Jump") && CanJump == true)
         {
             RB.AddForce(Vector2.up * JumpSpeed);
@@ -61,6 +72,15 @@ public class Player : MonoBehaviour {
         if (Input.GetKey(KeyCode.E))
         {
             RB.AddForce(Vector2.right * PlayerSpeed);
+        }
+
+        if (RB.velocity.x >= 1 || RB.velocity.x <= -1)
+        {
+            Movement = true;
+        }
+        else
+        {
+            Movement = false;
         }
 
 
