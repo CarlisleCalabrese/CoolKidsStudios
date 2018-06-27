@@ -53,7 +53,8 @@ public class Player : MonoBehaviour {
         }
         else if (Input.GetKeyDown(KeyCode.W) && CanJump == false)
         {
-
+            Anim.Play("Front Flip");
+            GameObject.Find("GameController").SendMessage("AddScoreAir");
         }
         else if (Input.GetKeyDown(KeyCode.D) && CanJump == false)
         {

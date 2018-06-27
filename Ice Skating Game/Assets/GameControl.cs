@@ -32,6 +32,11 @@ public class GameControl : MonoBehaviour {
         Score++;
     }
 
+    public void AddScoreAir()
+    {
+        Score = Score + 3;
+    }
+
     public void LoseLife()
     {
         Lives--;
