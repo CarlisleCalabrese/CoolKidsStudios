@@ -31,7 +31,7 @@ public class Player : MonoBehaviour {
         }
 
         // Tricks.
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A) && CanJump == true)
         {
             Anim.Play("Spin");
             GameObject.Find("GameController").SendMessage("AddScore");
