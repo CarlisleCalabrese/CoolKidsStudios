@@ -35,32 +35,32 @@ public class Player : MonoBehaviour {
         {
 
         }
-        else if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.D))
         {
 
         }
-        else if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W))
         {
 
         }
-        else if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.S))
         {
 
         }
-        else if (Input.GetKeyDown(KeyCode.A) && CanJump == false)
+        if (Input.GetKeyDown(KeyCode.A) && CanJump == false)
         {
 
         }
-        else if (Input.GetKeyDown(KeyCode.W) && CanJump == false)
+        if (Input.GetKeyDown(KeyCode.W) && CanJump == false)
         {
             Anim.Play("Front Flip");
             GameObject.Find("GameController").SendMessage("AddScoreAir");
         }
-        else if (Input.GetKeyDown(KeyCode.D) && CanJump == false)
+        if (Input.GetKeyDown(KeyCode.D) && CanJump == false)
         {
 
         }
-        else if (Input.GetKeyDown(KeyCode.S) && CanJump == false)
+        if (Input.GetKeyDown(KeyCode.S) && CanJump == false)
         {
 
         }
