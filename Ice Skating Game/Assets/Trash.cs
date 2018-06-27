@@ -18,7 +18,7 @@ public class Trash : MonoBehaviour {
     void Update()
     {
 
-
+        
 
         
         

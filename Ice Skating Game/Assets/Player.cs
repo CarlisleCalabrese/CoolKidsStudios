@@ -33,7 +33,8 @@ public class Player : MonoBehaviour {
         // Tricks.
         if (Input.GetKeyDown(KeyCode.A))
         {
-
+            Anim.Play("Spin");
+            GameObject.Find("GameController").SendMessage("AddScore");
         }
         if (Input.GetKeyDown(KeyCode.D))
         {
