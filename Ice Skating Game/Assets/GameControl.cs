@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameControl : MonoBehaviour {
 
@@ -17,6 +18,12 @@ public class GameControl : MonoBehaviour {
 	void Update () {
         ScoreText.text = "Score: " + Score + " Lives: " + Lives;
         LifeText.text = "Lives:" + Lives;
+
+
+        if (Lives <= 0)
+        {
+            SceneManager.LoadScene("Game Over");
+        }
     }
 
 
