@@ -10,14 +10,15 @@ public class Player : MonoBehaviour {
     public Animator Anim;
     public float PlayerSpeed;
     private bool Movement = false;
+    private bool TrickAnim = false;
 
     // Update is called once per frame
     void Update()
-    { 
+    {
         if (Movement == true)
         {
             Anim.Play("Running");
-        } else
+        } else if (Movement == false && CanJump == true && TrickAnim == false)
         {
             Anim.Play("Stationary");
         }
@@ -35,21 +36,27 @@ public class Player : MonoBehaviour {
         // Tricks.
         if (Input.GetKeyDown(KeyCode.A) && CanJump == true)
         {
+            TrickAnim = true;
             Anim.Play("Spin");
             GameObject.Find("GameController").SendMessage("AddScore");
+            TrickAnim = false;
         }
 
         if (Input.GetKeyDown(KeyCode.D) && CanJump == true)
         {
+            TrickAnim = true;
             Anim.Play("Juggle");
             GameObject.Find("GameController").SendMessage("AddScore");
+            TrickAnim = false;
         }
         
       
         if (Input.GetKeyDown(KeyCode.W) && CanJump == false)
         {
+            TrickAnim = true;
             Anim.Play("Front Flip");
             GameObject.Find("GameController").SendMessage("AddScoreAir");
+            TrickAnim = false;
         }
 
         //Left and right movement.
