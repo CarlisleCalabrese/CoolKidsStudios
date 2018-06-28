@@ -11,6 +11,7 @@ public class Player : MonoBehaviour {
     public float PlayerSpeed;
     private bool Movement = false;
     private bool TrickAnim = false;
+    private float Timer = 0;
 
     // Update is called once per frame
     void Update()
@@ -39,7 +40,7 @@ public class Player : MonoBehaviour {
             TrickAnim = true;
             Anim.Play("Spin");
             GameObject.Find("GameController").SendMessage("AddScore");
-            TrickAnim = false;
+            
         }
 
         if (Input.GetKeyDown(KeyCode.D) && CanJump == true)
@@ -47,16 +48,15 @@ public class Player : MonoBehaviour {
             TrickAnim = true;
             Anim.Play("Juggle");
             GameObject.Find("GameController").SendMessage("AddScore");
-            TrickAnim = false;
+            
         }
         
       
         if (Input.GetKeyDown(KeyCode.W) && CanJump == false)
         {
-            TrickAnim = true;
             Anim.Play("Front Flip");
             GameObject.Find("GameController").SendMessage("AddScoreAir");
-            TrickAnim = false;
+            
         }
 
         //Left and right movement.
@@ -76,6 +76,17 @@ public class Player : MonoBehaviour {
         else
         {
             Movement = false;
+        }
+
+        if (TrickAnim == true)
+        {
+            Timer = Timer + 0.01f;
+            
+            if (Timer >= 0.5f)
+            {
+                TrickAnim = false;
+                Timer = 0;
+            }
         }
 
 
