@@ -196,15 +196,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4756543287751182, guid: 32e7fce4baa3968438613d58507e6af4, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4756543287751182, guid: 32e7fce4baa3968438613d58507e6af4, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4756543287751182, guid: 32e7fce4baa3968438613d58507e6af4, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4756543287751182, guid: 32e7fce4baa3968438613d58507e6af4, type: 2}
       propertyPath: m_LocalRotation.w
@@ -212,7 +212,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4756543287751182, guid: 32e7fce4baa3968438613d58507e6af4, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 82538939355723386, guid: 32e7fce4baa3968438613d58507e6af4,
         type: 2}
@@ -310,10 +310,10 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.04, y: 3.6}
+  m_Size: {x: 0.24, y: 0.29}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 --- !u!1 &160046690
 GameObject:
@@ -364,6 +364,9 @@ MonoBehaviour:
   MinRoseInterval: 10
   MaxRoseInterval: 15
   Rose: {fileID: 1576236587988588, guid: 7b2259757f8759041b9e8b0e8115015d, type: 2}
+  Trash2: {fileID: 1234449861572322, guid: a6cade0953e937149b88ae0ee32f39e4, type: 2}
+  MaxTrash2Interval: 2.5
+  MinTrash2Interval: 4
 --- !u!1 &361696850
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,7 +581,7 @@ Transform:
   m_Children:
   - {fileID: 716453957}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &554069183
 GameObject:
@@ -852,6 +855,9 @@ MonoBehaviour:
   MinRoseInterval: 10
   MaxRoseInterval: 15
   Rose: {fileID: 1328163389630420, guid: 81fdbba456bccdb40835d2228eeadb12, type: 2}
+  Trash2: {fileID: 1677099847877254, guid: 3f7b3f6c56f47ec4d8376c23d67cb42d, type: 2}
+  MaxTrash2Interval: 2.5
+  MinTrash2Interval: 4
 --- !u!1 &879317362
 GameObject:
   m_ObjectHideFlags: 0
