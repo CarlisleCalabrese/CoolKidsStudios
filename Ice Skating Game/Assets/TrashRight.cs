@@ -29,7 +29,7 @@ public class TrashRight : MonoBehaviour {
 
         if (col.gameObject.name == "Player")
         {
-            GameObject.Find("GameController").SendMessage("LoseLife");
+            GameObject.Find("HealthBar").SendMessage("LoseLife");
             Destroy(gameObject);
         }
         else
