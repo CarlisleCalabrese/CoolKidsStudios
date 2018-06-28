@@ -367,6 +367,9 @@ MonoBehaviour:
   Trash2: {fileID: 1234449861572322, guid: a6cade0953e937149b88ae0ee32f39e4, type: 2}
   MaxTrash2Interval: 2.5
   MinTrash2Interval: 4
+  MaxCoinInterval: 10
+  MinCoinInterval: 20
+  Coin: {fileID: 1593311268759770, guid: b836c038b337e754ab9537c1fee56fc1, type: 2}
 --- !u!1 &361696850
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,6 +861,9 @@ MonoBehaviour:
   Trash2: {fileID: 1677099847877254, guid: 3f7b3f6c56f47ec4d8376c23d67cb42d, type: 2}
   MaxTrash2Interval: 2.5
   MinTrash2Interval: 4
+  MaxCoinInterval: 10
+  MinCoinInterval: 20
+  Coin: {fileID: 1631435571758332, guid: eca798c1569ee3c46bdc00560932a494, type: 2}
 --- !u!1 &879317362
 GameObject:
   m_ObjectHideFlags: 0

@@ -22,6 +22,11 @@ public class TrashSpawner : MonoBehaviour {
     public float MinTrash2Interval;
     private float Trash2I;
     private float LastTrash2;
+    public float MaxCoinInterval;
+    public float MinCoinInterval;
+    private float CoinI;
+    private float LastCoin;
+    public GameObject Coin;
 	
 	// Update is called once per frame
 	void Update () {
@@ -29,6 +34,7 @@ public class TrashSpawner : MonoBehaviour {
         Interval = Random.Range(MinInterval, MaxInterval);
         RInterval = Random.Range(MinRoseInterval, MaxRoseInterval);
         Trash2I = Random.Range(MinTrash2Interval, MaxTrash2Interval);
+        CoinI = Random.Range(MinCoinInterval, MaxCoinInterval);
 
 
         if (Time.time - Interval >= LastTrash)
@@ -48,6 +54,12 @@ public class TrashSpawner : MonoBehaviour {
         {
             Instantiate(Trash2, transform.position, Quaternion.identity);
             LastTrash2 = Time.time;
+        }
+
+        if (Time.time - CoinI >= LastCoin)
+        {
+            Instantiate(Coin, transform.position, Quaternion.identity);
+            LastCoin = Time.time;
         }
     }
 }
