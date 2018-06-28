@@ -28,6 +28,8 @@ public class Player : MonoBehaviour {
         {
             RB.AddForce(Vector2.up * JumpSpeed);
             CanJump = false;
+
+            Anim.Play("Jump");
         }
 
         // Tricks.
