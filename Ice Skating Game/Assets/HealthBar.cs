@@ -31,6 +31,7 @@ public class HealthBar : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+
         if (Lives == 2)
         {
             Heart3Renderer.enabled = false;
@@ -56,5 +57,8 @@ public class HealthBar : MonoBehaviour {
     public void HealPlayer()
     {
         Lives = 3;
+        Heart1Renderer.enabled = true;
+        Heart2Renderer.enabled = true;
+        Heart3Renderer.enabled = true;
     }
 }
