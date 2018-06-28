@@ -36,34 +36,18 @@ public class Player : MonoBehaviour {
             Anim.Play("Spin");
             GameObject.Find("GameController").SendMessage("AddScore");
         }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
 
-        }
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.D) && CanJump == true)
         {
-
+            Anim.Play("Juggle");
+            GameObject.Find("GameController").SendMessage("AddScore");
         }
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-
-        }
-        if (Input.GetKeyDown(KeyCode.A) && CanJump == false)
-        {
-
-        }
+        
+      
         if (Input.GetKeyDown(KeyCode.W) && CanJump == false)
         {
             Anim.Play("Front Flip");
             GameObject.Find("GameController").SendMessage("AddScoreAir");
-        }
-        if (Input.GetKeyDown(KeyCode.D) && CanJump == false)
-        {
-
-        }
-        if (Input.GetKeyDown(KeyCode.S) && CanJump == false)
-        {
-
         }
 
         //Left and right movement.

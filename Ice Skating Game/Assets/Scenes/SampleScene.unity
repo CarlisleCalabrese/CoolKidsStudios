@@ -313,7 +313,7 @@ SpriteRenderer:
   m_Size: {x: 0.27, y: 0.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!1 &160046690
 GameObject:
@@ -361,6 +361,9 @@ MonoBehaviour:
   XValue: -9.04
   MinInterval: 1.5
   MaxInterval: 3
+  MinRoseInterval: 10
+  MaxRoseInterval: 15
+  Rose: {fileID: 1576236587988588, guid: 7b2259757f8759041b9e8b0e8115015d, type: 2}
 --- !u!1 &361696850
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,6 +850,9 @@ MonoBehaviour:
   XValue: 9.04
   MinInterval: 1.5
   MaxInterval: 3
+  MinRoseInterval: 10
+  MaxRoseInterval: 15
+  Rose: {fileID: 1328163389630420, guid: 81fdbba456bccdb40835d2228eeadb12, type: 2}
 --- !u!1 &879317362
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,14 +1,17 @@
 fileFormatVersion: 2
-guid: 448c91f5c0db4cc489c6bdac643a64d9
+guid: 969dc4dd90208364cba67e4ba8ea9478
 TextureImporter:
   fileIDToRecycleName:
-    21300000: AnimationSheet_0
-    21300002: AnimationSheet_1
-    21300004: AnimationSheet_2
-    21300006: AnimationSheet_3
-    21300008: AnimationSheet_4
-    21300010: AnimationSheet_5
-    21300012: AnimationSheet_6
+    21300000: AnimationSheet 1_0
+    21300002: AnimationSheet 1_1
+    21300004: AnimationSheet 1_2
+    21300006: AnimationSheet 1_3
+    21300008: AnimationSheet 1_4
+    21300010: AnimationSheet 1_5
+    21300012: AnimationSheet 1_6
+    21300014: AnimationSheet 1_7
+    21300016: AnimationSheet 1_8
+    21300018: AnimationSheet 1_9
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -89,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AnimationSheet_0
+      name: AnimationSheet 1_0
       rect:
         serializedVersion: 2
         x: 75
@@ -103,13 +106,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9ef591214e55e941aab1585a9ddb138
+      spriteID: 215c1709b2eea0f40a8a05c1710fc9f3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnimationSheet_1
+      name: AnimationSheet 1_1
       rect:
         serializedVersion: 2
         x: 146
@@ -123,13 +126,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2a258f3bc65dfb4aa4628fa198fa23f
+      spriteID: 80357b0315f45824993f8996942107d6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnimationSheet_2
+      name: AnimationSheet 1_2
       rect:
         serializedVersion: 2
         x: 222
@@ -143,13 +146,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cfc0c1fbcea2264b9f5bbcaa6ba6fba
+      spriteID: 2f43d00c01347b14e90aac3a17cf32ba
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnimationSheet_3
+      name: AnimationSheet 1_3
       rect:
         serializedVersion: 2
         x: 286
@@ -163,13 +166,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53e10d1e0f06a1c47803b7d2d955f567
+      spriteID: b1f0690dc68129c479adaa3a34bb4abb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnimationSheet_4
+      name: AnimationSheet 1_4
       rect:
         serializedVersion: 2
         x: 353
@@ -183,13 +186,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b502be3a236140443ad03c459feb1dcc
+      spriteID: 76d2fbbaa74c8cf4690968b52e55c576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnimationSheet_5
+      name: AnimationSheet 1_5
       rect:
         serializedVersion: 2
         x: 78
@@ -203,17 +206,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5924cb5d2c5ec8459144b074956eaeb
+      spriteID: 457a44adaf517d649b2b4813969f7fb7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnimationSheet_6
+      name: AnimationSheet 1_6
       rect:
         serializedVersion: 2
-        x: 142
-        y: 160
+        x: 137
+        y: 164
         width: 33
         height: 50
       alignment: 0
@@ -223,7 +226,67 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0addff90c6c774c439aaa1aaa4e6df7a
+      spriteID: 4273b3b3d10b37a4ea5d716b95f9c7c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 163
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8466a00f5aae71f4ca8dda4c7f0e14b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 163
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2795983e56880d64bbc12771c13e8c87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 163
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c343046ee3f78ef47b4ed34eeb2e8fd6
       vertices: []
       indices: 
       edges: []
@@ -231,7 +294,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a9576c80c4435324e82e49e2cc065eb2
+    spriteID: da2afc279325fc340ad88bd366e98e23
     vertices: []
     indices: 
     edges: []

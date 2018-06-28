@@ -55,6 +55,6 @@ public class HealthBar : MonoBehaviour {
 
     public void HealPlayer()
     {
-        Lives++;
+        Lives = 3;
     }
 }
